@@ -1,0 +1,12 @@
+name: Question
+description: Ask a question
+labels: [ "question" ]
+assignees:
+  - tobiashein
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: How may I help you?
+    validations:
+      required: true
