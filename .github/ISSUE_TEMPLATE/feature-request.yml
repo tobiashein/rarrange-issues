@@ -1,0 +1,16 @@
+name: Feature Request
+description: File a feature request
+labels: [ "Feature" ]
+assignees:
+  - tobiashein
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the sections below to help me analyze and fix the issue. I will get back to you as soon as possible.
+  - type: textarea
+    id: description
+    attributes:
+      label: What feature would you like to see in RArrange?
+    validations:
+      required: true
